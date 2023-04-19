@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Variable Air Volume (VAV) Report Parser</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.2/min/dropzone.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.2/min/dropzone.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+
+<body>
+  <h1>Variable Air Volume (VAV) Report Parser</h1>
+  <p>
+    Combines and parses your files into one excel file!
+    <br>
+    <br>
+    Upload your files below
+  </p>
+  <!-- <input type="text" id="noteTitle"/>
+  <input type="text" id="noteContent"/>
+  <button id="noteSubmit">Submit Note</button> -->
+
+  <div id="dropZone">
+    <form action="/file-upload" class="dropzone" id="my-great-dropzone"></form>
+    <button>Add Files...</button>
+  </div>
+  <br>
+  <br>
+  <p id="saved-path"></p>
+  <script src="script.js"></script>
+</body>
+
+</html>

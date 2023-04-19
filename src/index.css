@@ -1,0 +1,10 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+  }
+  
+  .dropzone.dz-started .dz-message {
+    display: block !important;
+  }
